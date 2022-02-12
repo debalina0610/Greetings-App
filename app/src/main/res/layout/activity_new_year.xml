@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="false"
+    android:background="#ffffff"
+    tools:context=".NewYear">
+
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="315dp"
+        android:layout_height="74dp"
+        android:capitalize="none"
+        android:fontFamily="sans-serif-black"
+        android:textAllCaps="true"
+        android:textColor="#090808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="393dp"
+        android:layout_height="231dp"
+        android:fontFamily="sans-serif-black"
+        android:text="&quot;Hope you enjoy the Christmas eve with the ones you love and step into the new year with lots of happiness and good health. Reflect on the special moments. Ring in the year with the people who make them so special. May the Angels bless us all on this day and shower us with peace, good health and happiness. From our home to yours, we wish you a very Merry Christmas and a happy holiday season! Stay safe and take care.&quot;"
+        android:textColor="#0B0B0B"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="369dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cname"
+        app:layout_constraintVertical_bias="0.949"
+        app:srcCompat="@drawable/anew" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
